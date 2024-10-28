@@ -52,8 +52,8 @@ Os testes unitarios se encontram na pasta `__test__/unit/services`.
 
 Para rodar todos os unitarios, rodar o comando:
 
-Sistema Linux: `npm run test`
-Sistema Windows: `npm run test:w`
+* Sistema Linux: `npm run test`
+* Sistema Windows: `npm run test:w`
 
 ### Para acessar a documentação da api
 
