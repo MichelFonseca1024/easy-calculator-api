@@ -59,7 +59,7 @@
                             }
                         }
                     },
-                    "422": {
+                    "400": {
                         "description": "Retorna um JSON com o status code, mensagem HTTP e uma lista de mensagens de erros detalhados",
                         "content": {
                             "application/json": {
@@ -68,11 +68,11 @@
                                     "properties": {
                                         "code": {
                                             "type": "integer",
-                                            "example": 422
+                                            "example": 400
                                         },
                                         "message": {
                                             "type": "string",
-                                            "example": "Unprocessable Entity"
+                                            "example": "Bad request"
                                         },
                                         "data": {
                                             "type": "object",
@@ -146,7 +146,7 @@
                             }
                         }
                     },
-                    "422": {
+                    "400": {
                         "description": "Retorna um JSON com o status code, mensagem HTTP e uma lista de mensagens de erros detalhados",
                         "content": {
                             "application/json": {
@@ -155,11 +155,11 @@
                                     "properties": {
                                         "code": {
                                             "type": "integer",
-                                            "example": 422
+                                            "example": 400
                                         },
                                         "message": {
                                             "type": "string",
-                                            "example": "Unprocessable Entity"
+                                            "example": "Bad request"
                                         },
                                         "data": {
                                             "type": "object",
