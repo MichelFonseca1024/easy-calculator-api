@@ -48,7 +48,7 @@ PORT=3000
 API_BASE=/api
 ```
 
-Os testes unitarios se encontram na pasta `__test__/unit/services`.
+Os testes unitarios se encontram na pasta `src/__tests__/unit/services`.
 
 Para rodar todos os unitarios, rodar o comando:
 
