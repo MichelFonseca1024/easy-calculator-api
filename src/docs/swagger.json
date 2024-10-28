@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "API de calculo de soma e media de numeros",
+        "title": "Easy Calculator API",
         "description": "Api que calcula a soma e a média entre vários números.",
         "version": "1.0.0"
     },
